@@ -7,8 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javafx-supermarket" />
+        <module name="Project_Model_JavaFX15_0_1_Maven3_6_3" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="javafx-supermarket" target="11" />
+      <module name="javafx-supermarket-erp" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
